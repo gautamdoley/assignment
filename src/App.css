@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+body {
+  
+  background: -webkit-linear-gradient(to right, #E29587, #D66D75);  /* Chrome 10-25, Safari 5.1-6 */
+
+}
+
+.app-container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50vh;
+  width: 80vw;
+  background: linear-gradient(to bottom, #323232 0%, #3F3F3F 40%, #1C1C1C 150%), linear-gradient(to top, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.25) 200%);
+  background-blend-mode: multiply;
+  box-shadow: 0 6px 15px rgba(36, 37, 38, 0.08);
+}
+
+.each-post {
+  padding: 5px;
+  color: #ffa532;
+  margin: 5px;
+}
+
+/* BUTTON CSS */
+/* i know its extra */
+/* Credit: https://www.fabriziovanmarciano.com/button-styles/ */
+
+.example_a {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ed3330;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+.example_a:hover {
+  cursor: pointer;
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+}
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+.box {
+  width: 300px;
+  h1 {
+    font-size: 20px;
+    margin: 0 0 1rem 0;
+  }
+}
+
+button {
+  margin: 3px;
+}

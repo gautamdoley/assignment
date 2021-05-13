@@ -1,0 +1,18 @@
+    
+
+ button {
+    margin: auto!important;
+    display: block;
+    width: 50%;
+    height: 30px;
+    background: coral;
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid beige;
+    border-radius: 5%;
+
+}
+
+button:hover {
+  background-color: #45a049;
+}
